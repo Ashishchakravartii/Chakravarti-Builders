@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.main{
+    width: 100vw;
+    min-height: 100vh;
+
+}
+
+/* ---------------------------------Top screen start------------------------------------------ */
+.top-screen{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    font-family: "Arial Narrow";
+    font-size: 3.8vmax;
+    text-transform:uppercase;
+    line-height: 9vmax;
+    position: absolute;
+}
+.top-screenH1{
+    padding-top: 2vmax;
+    padding-left: 2vmax;
+    font-size: 7vmax;
+    letter-spacing: 0.8vmax;
+}
+.logo{
+    width: 8vmax;
+    height: 8vmax;
+    position: absolute;
+    top: 40%;
+    left: 80%;
+}
+
+.brand-name{
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 58%;
+    letter-spacing: 2vmax;
+    font-size: 10vmax;
+}
+    /* ---------------------------------Top screen End------------------------------------------ */
+
+    /* ---------------------------------Page 1 Start------------------------------------------ */
+
+    .page1{
+        width: 100vw;
+        height: 100vh;
+        background-color: black;
+
+    }
+
+
+
+
+
+    /* ---------------------------------Page 1 End------------------------------------------ */
