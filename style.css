@@ -87,7 +87,8 @@ body {
 
 nav {
     position: fixed;
-    top: 0;
+    top: -2%;
+    z-index: 4000;
     width: 100%;
     height: 7vmax;
     /* background-color: red; */
@@ -190,10 +191,31 @@ nav ul {
     background-image: url(https://discoverybuildersllc.com/static/pattern.png);
     background-size: cover;
     background-position: center;
+    font-family: "font1";
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
-.page2 h1{
+.page2 h6 {
     color: white;
+    font-weight: 100;
+    position: absolute;
+    top: 22%;
+    left: 2%;
+    letter-spacing: 0.25vmin;
+
+}
+
+.p2-slogan {
+    color: white;
+    font-weight: 100;
+    font-size: 3vmax;
+    text-align: left;
+    width: 52%;
+    height: 60%;
 }
 
 
@@ -204,3 +226,47 @@ nav ul {
 
 
 /* ---------------------------------Page 2 End------------------------------------------ */
+/* ---------------------------------Page 3 start------------------------------------------ */
+
+.page3 {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+}
+
+.p3-left {
+    margin-top: 1.2vmax;
+    margin-left: 1.2vmax;
+    width: 50%;
+    height: 75%;
+    background-image: url(https://discoverybuildersllc.com/imager/images/12125/Stevens-Back-1_2023-03-23-190736_beua_24eb849b151a1326f072fae2e77ba08f.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.p3-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+}
+.p3-right img{
+    margin-top: 1.2vmax;
+    margin-right: 2.2vmax;
+    width: 50%;
+    height:75%
+
+}
+
+/* ---------------------------------Page 3 end------------------------------------------ */
+
+/* ---------------------------------Page 4 start------------------------------------------ */
+
+.page4{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+}
+
+
+/* ---------------------------------Page 4 end------------------------------------------ */
