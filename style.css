@@ -1,46 +1,63 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 html,
-body{
+body {
     width: 100vw;
     height: 100vh;
+    overflow-x: hidden;
+
 }
-.main{
+@font-face {
+    font-family:"font1-it" ;
+    src: url(GT-Sectra-Display-Light-Italic.woff2);
+}
+@font-face {
+    font-family: "font1";
+    src: url(GT-Sectra-Display-Light.woff2);
+}
+.main {
     width: 100vw;
     min-height: 100vh;
 
 }
 
 /* ---------------------------------Top screen start------------------------------------------ */
-.top-screen{
+.top-screen {
     width: 100vw;
     height: 100vh;
     background-color: black;
     color: white;
     font-family: "Arial Narrow";
     font-size: 3.8vmax;
-    text-transform:uppercase;
+    text-transform: uppercase;
     line-height: 9vmax;
     position: absolute;
+    z-index: 5000;
+    font-family: "font1";
+    font-weight: 100;
+
 }
-.top-screenH1{
+
+.top-screenH1 {
     padding-top: 2vmax;
     padding-left: 2vmax;
     font-size: 7vmax;
     letter-spacing: 0.8vmax;
 }
-.logo{
-    width: 8vmax;
-    height: 8vmax;
+
+.logo {
+    width: 5vmax;
+    height: 55vmax;
     position: absolute;
-    top: 40%;
-    left: 80%;
+    top: -5%;
+    left: 45%;
 }
 
-.brand-name{
+.brand-name {
     color: white;
     position: absolute;
     top: 40%;
@@ -48,19 +65,108 @@ body{
     letter-spacing: 2vmax;
     font-size: 10vmax;
 }
-    /* ---------------------------------Top screen End------------------------------------------ */
 
-    /* ---------------------------------Page 1 Start------------------------------------------ */
+/* ---------------------------------Top screen End------------------------------------------ */
 
-    .page1{
-        width: 100vw;
-        height: 100vh;
-        background-color: black;
+/* ---------------------------------Page 1 Start------------------------------------------ */
 
-    }
+.page1 {
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position:10%;
+    background-image:linear-gradient(to bottom,#a5caea,#ebebdb);
+    /* overflow-x: hidden; */
+
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    width:100%;
+    height: 7vmax;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0vmax  2vmax;
+
+}
+
+nav .logoPage1{
+    width: 18vmax;
+    height: 3.8vmax;
+    padding-top: 1vmax;
+    position: absolute;
+    top: 20%;
+    left: 2%;
+
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 1.2vmax;
+    font-size: 0.9vmax;
+    letter-spacing: 0.3vmin;
+    font-weight: 100;
+    font-family: "font1";
+    margin-left: 83%;
+
+}
 
 
 
 
 
-    /* ---------------------------------Page 1 End------------------------------------------ */
+
+
+
+
+
+
+.p1-bgImg{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.p1-Head h1{
+    width: 100%;
+    height: 20%;
+    color: rgb(16,49,43);
+    position: absolute;
+    top: 42%;
+    left: 74%;
+    transform: translate(-50%,-50%);
+    font-family: "font1";
+    font-size: 7.5vmax;
+    font-weight: 100;
+    letter-spacing: -0.2vmax;
+    word-spacing: -0.5vmax;
+}
+.p1-Head h6{
+    font-size: 1.4vmax;
+    font-weight: 500;
+    word-spacing: 0.08vmax;
+    letter-spacing: 0.1vmin;
+    font-family: "font1";
+    color: #2D4B47;
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.mainHeadSpan{
+    font-family: "font1-it";
+}
+
+
+
+
+
+
+/* ---------------------------------Page 1 End------------------------------------------ */

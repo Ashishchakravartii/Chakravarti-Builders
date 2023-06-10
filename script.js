@@ -18,9 +18,6 @@ tl
     .from(".secondBottom", {
         opacity: 0,
         delay: 1,
-       
-
-
         onStart: function () {
             $('.secondBottom').textillate({
                 in: {
@@ -73,7 +70,7 @@ tl
         opacity: 0,
         delay: 1.3,
         y:10,
-        duration:1
+        duration:1,
     })
 
     .to(".top-screen",{
@@ -81,6 +78,19 @@ tl
         delay:1,
         duration:1.2,
         ease:"Power4.easeOut"
+    })
+
+
+
+    // -------------------------------------Page 1----------------------------------------
+
+    .from([".p1-Head h1",".p1-Head h6"],{
+        y:40,
+        opacity:0,
+        delay:"-0.8%",
+        ease:"Power4.easeOut"
+
+
     })
 
     
