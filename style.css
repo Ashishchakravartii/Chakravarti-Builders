@@ -266,7 +266,101 @@ nav ul {
     width: 100vw;
     height: 100vh;
     background-color: white;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+}
+
+.page4 h6{
+    margin-top: 5.5vmax;
+    margin-left: 8vmax;
+    font-weight: 300;
+    font-family: 'Kanit', sans-serif;
+}
+.page4 h2{
+    margin-top: 2.8vmax;
+    margin-left: 8vmax;
+    font-weight: 300;
+    font-size: 2.8vmax;
+    font-family: 'font1', sans-serif;
+}
+.page4 h5{
+    margin-top: 3vmax;
+    margin-left: 35vmax;
+    font-size: 2.3vmin;
+    font-weight: 300;
+    font-family: 'Kanit', sans-serif;
 }
 
 
+
 /* ---------------------------------Page 4 end------------------------------------------ */
+/* ---------------------------------Page 5 start------------------------------------------ */
+.page5{
+    width: 100vw;
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+}
+.p5-img1{
+    margin-top: 7vmax;
+    width: 42%;
+    height: 23vmax;
+    object-fit: cover;
+    margin-left: 32.5vmax;
+}
+
+.p5-img2{
+    width: 18%;
+    height: 20vmax;
+    object-fit: cover;
+    margin-top: 5vmax;
+    margin-right: 1vmax;
+}
+.p5-img3{
+    width: 35%;
+    height: 25vmax;
+    object-fit: cover;
+
+}
+.p5-img4{
+    width: 18%;
+    height: 48%;
+    height: 20vmax;
+    object-fit: cover;
+    margin-top: 5vmax;
+    margin-left: 1vmax;
+}
+.p5-img5{
+    width: 23%;
+    height: 12vmax;
+    object-position: top;
+    object-fit: cover;
+    margin-right: 1vmax;
+}
+.p5-img6{
+    width: 33%;
+    height: 12vmax;
+    object-position: top;
+    object-fit: cover;
+    margin-right: 1vmax;
+
+}
+
+.p5-holder1{
+    display: flex;
+    justify-content: center;
+}
+.p5-holder2{
+    display: flex;
+    justify-content: center;
+   
+}
+
+
+
+
+/* ---------------------------------Page 5 end------------------------------------------ */
