@@ -11,14 +11,17 @@ body {
     overflow-x: hidden;
 
 }
+
 @font-face {
-    font-family:"font1-it" ;
+    font-family: "font1-it";
     src: url(GT-Sectra-Display-Light-Italic.woff2);
 }
+
 @font-face {
     font-family: "font1";
     src: url(GT-Sectra-Display-Light.woff2);
 }
+
 .main {
     width: 100vw;
     min-height: 100vh;
@@ -75,36 +78,38 @@ body {
     height: 100vh;
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position:10%;
-    background-image:linear-gradient(to bottom,#a5caea,#ebebdb);
+    background-position: 10%;
+    background-image: linear-gradient(to bottom, #a5caea, #ebebdb);
     /* overflow-x: hidden; */
+    position: relative;
 
 }
 
-nav{
+nav {
     position: fixed;
     top: 0;
-    width:100%;
+    width: 100%;
     height: 7vmax;
     /* background-color: red; */
     display: flex;
     justify-content: center;
     align-items: center;
     justify-content: space-between;
-    padding: 0vmax  2vmax;
+    padding: 0vmax 2vmax;
 
 }
 
-nav .logoPage1{
-    width: 18vmax;
-    height: 3.8vmax;
+nav .logoPage1 {
+    width: 11vmax;
+    height: 3vmax;
     padding-top: 1vmax;
     position: absolute;
     top: 20%;
     left: 2%;
 
 }
-nav ul{
+
+nav ul {
     display: flex;
     list-style: none;
     gap: 1.2vmax;
@@ -114,39 +119,45 @@ nav ul{
     font-family: "font1";
     margin-left: 83%;
 
+
 }
 
+.crsr {
 
+    width: 10vmax;
+    height: 10vmax;
+    position: absolute;
+    background-color: black;
+    border-radius: 50%;
+    filter: blur(11px);
+    opacity: 0.1;
+    z-index: 1000;
+    transition: all linear 0.2s;
 
+}
 
-
-
-
-
-
-
-
-.p1-bgImg{
+.p1-bgImg {
     width: 100vw;
     height: 100vh;
     object-fit: cover;
 }
 
-.p1-Head h1{
+.p1-Head h1 {
     width: 100%;
     height: 20%;
-    color: rgb(16,49,43);
+    color: rgb(16, 49, 43);
     position: absolute;
     top: 42%;
     left: 74%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     font-family: "font1";
     font-size: 7.5vmax;
     font-weight: 100;
     letter-spacing: -0.2vmax;
     word-spacing: -0.5vmax;
 }
-.p1-Head h6{
+
+.p1-Head h6 {
     font-size: 1.4vmax;
     font-weight: 500;
     word-spacing: 0.08vmax;
@@ -156,11 +167,11 @@ nav ul{
     position: absolute;
     top: 62%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 
 }
 
-.mainHeadSpan{
+.mainHeadSpan {
     font-family: "font1-it";
 }
 
@@ -170,3 +181,26 @@ nav ul{
 
 
 /* ---------------------------------Page 1 End------------------------------------------ */
+/* ---------------------------------Page 2 start------------------------------------------ */
+
+.page2 {
+    width: 100vw;
+    height: 100vh;
+    background-color: #10312B;
+    background-image: url(https://discoverybuildersllc.com/static/pattern.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.page2 h1{
+    color: white;
+}
+
+
+
+
+
+
+
+
+/* ---------------------------------Page 2 End------------------------------------------ */

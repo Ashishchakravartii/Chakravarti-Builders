@@ -83,14 +83,24 @@ tl
 
 
     // -------------------------------------Page 1----------------------------------------
-
-    .from([".p1-Head h1",".p1-Head h6"],{
+    
+    gsap.from([".p1-Head h1",".p1-Head h6"],{
         y:40,
         opacity:0,
-        delay:"-0.8%",
+        delay:8.6,
         ease:"Power4.easeOut"
 
 
     })
+    //  let page1= document.querySelector(".page1")
+    // let crsr= document.querySelector(".crsr");
+    // page1.addEventListener("mousemove",(event)=>{
+    //        crsr.style.left= event.x +30 + "px";
+    //        crsr.style.top= event.y +30 + "px";
+    //     })
+        
+        // -------------------------------------Page 2----------------------------------------
+
+
 
     
