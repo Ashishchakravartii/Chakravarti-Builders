@@ -74,7 +74,7 @@ tl
     })
 
     .to(".top-screen", {
-        top: "-100%",
+        top: "-200%",
         delay: 1,
         duration: 1.2,
         ease: "Power4.easeOut"
