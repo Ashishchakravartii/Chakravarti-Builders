@@ -262,7 +262,7 @@ gsap.to(".p7-h1-1", {
         trigger: ".p7-h1-1",
         start: "top 88%",
     },
-    left: "10%",
+    left: "9%",
 
 })
 gsap.to(".p7-h1-2", {
